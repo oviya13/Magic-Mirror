@@ -1,11 +1,11 @@
 Module.register("helloworld", {
 	// Default module config.
 	defaults: {
-		text: "Hello World!"
+		text: "Enchatress Mirror!"
 	},
 
 	getTemplate: function () {
-		return "helloworld.njk";
+		return "Enchatress Mirror.njk";
 	},
 
 	getTemplateData: function () {
