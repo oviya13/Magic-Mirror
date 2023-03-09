@@ -1,5 +1,4 @@
-Module.register("helloworld", {
-	// Default module config.
+Module.register("Enchatress Mirror", {
 	defaults: {
 		text: "Enchatress Mirror!"
 	},
