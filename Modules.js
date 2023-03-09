@@ -1,10 +1,14 @@
-modules: [
-  {
-    module: "helloworld",
-    position: "bottom_bar", // This can be any of the regions.
-    config: {
-      // See 'Configuration options' for more information.
-      text: "Hello world!",
-    },
-  },
-];
+Module.register("helloworld", {
+	// Default module config.
+	defaults: {
+		text: "Hello World!"
+	},
+
+	getTemplate: function () {
+		return "helloworld.njk";
+	},
+
+	getTemplateData: function () {
+		return this.config;
+	}
+});
